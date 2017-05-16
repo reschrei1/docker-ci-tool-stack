@@ -4,7 +4,7 @@ pipeline {
     stage('stage1') {
       steps {
         echo 'sdfsdfsdfsdfs'
-        mail(subject: 'reschrei@live.de', body: 'ddfgfdgfdgd')
+        mail(subject: 'erterterter', body: 'ddfgfdgfdgd', to: 'reschrei@gmail.com')
       }
     }
   }
