@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'swarm'
+      label 'jenkins-swarm-blue-swarm-clients-1-606991a6'
     }
     
   }
